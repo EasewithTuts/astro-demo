@@ -8,13 +8,12 @@ export interface Props {
 const {name,date,link} = Astro.props;
 ---
 <div>
-<h1>{name}</h1>
-<h4>{date}</h4>
-<a href={link}>Read More</a>
+<a href={link}>{name}{date}</a>
 </div>
 <style>
     div {
     display : flex;
     flex-direction : row;
+    justify-content : center;
     };
 </style>

@@ -17,6 +17,13 @@ const { title } = Astro.props;
 	</head>
 	<body>
 		<slot />
+                <div class="btm">Made with Astro</div>
 	</body>
 </html>
 
+<style>
+  .btm {
+      position : absolute;
+      bottom : 0;
+    };
+</style>

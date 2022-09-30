@@ -11,14 +11,8 @@ const {name,date,link} = Astro.props;
 <h1><a href={link}>{name} {date}</a></h1>
 </div>
 <style>
-    div {
-    display : flex;
-    flex-direction : row;
-    justify-content : center;
-    };
-
     a:link {
-      text-decoration : none;
-      color : black;  
+    text-decoration : none;
+    color : black;  
     };
 </style>

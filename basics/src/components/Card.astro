@@ -5,10 +5,10 @@ export interface Props {
     link : string;
 }
 
-const {name,date,link} = Astro.props
+const {name,date,link} = Astro.props;
 ---
 <div>
-<h1>{title}</h1>
+<h1>{name}</h1>
 <h4>{date}</h4>
 <a href={link}>Read More</a>
 </div>

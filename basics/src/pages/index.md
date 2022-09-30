@@ -1,6 +1,5 @@
----
-layout : '../layouts/Layout.astro';
-title : "Hello World"
----
+import Layout from '../layouts/Layout.astro';
 
-# Hello
+<Layout title="Hello">
+  Hello World!
+</Layout>
